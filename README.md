@@ -2,7 +2,7 @@
 
 Identification de l'erreur:
 Dans la situation, l'utilisation des commandes ping et dig montre que le pc direction ne reçoit pas de réponse. 
-![Capture d’écran du 2024-11-27 07-01-09](https://github.com/user-attachments/assets/18e2ce4c-45e6-46f5-b575-ec8e5da2e4b0)
+![image](https://github.com/user-attachments/assets/abf30890-b5bf-45c8-8c4d-33f9f96ac23e)
 
 Collecte de symptômes:
 La commande dig sur le pc direction  montre que il y a un problème sur le serveur SOA au niveau de allow-recursion. L'utilisation de la commande ps -A, netstat -nltpu, checkzone et checkconf montre que il n'y a pas de problème au niveau de la configuration pour se connecter au autres machines
